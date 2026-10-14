@@ -1,0 +1,99 @@
+{
+  "selected_model": "Random forest",
+  "selection_metric": "lowest validation log loss",
+  "train_seasons": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "validation_season": 2025,
+  "test_season": 2026,
+  "validation_candidates": [
+    {
+      "model": "Logistic regression",
+      "matches": 71,
+      "accuracy": 0.5352112676056338,
+      "log_loss": 0.7033160274153262,
+      "brier_score": 0.2550773052000529,
+      "roc_auc": 0.5166112956810631,
+      "accuracy_ci95_low": 0.4203903355696419,
+      "accuracy_ci95_high": 0.6464174290959985
+    },
+    {
+      "model": "Random forest",
+      "matches": 71,
+      "accuracy": 0.5070422535211268,
+      "log_loss": 0.6951645381863985,
+      "brier_score": 0.25101749101729914,
+      "roc_auc": 0.5348837209302325,
+      "accuracy_ci95_low": 0.3934110961033843,
+      "accuracy_ci95_high": 0.6199504568297438
+    }
+  ],
+  "test": {
+    "matches": 73,
+    "accuracy": 0.4520547945205479,
+    "log_loss": 0.6866799250936849,
+    "brier_score": 0.24719366570903034,
+    "roc_auc": 0.48003072196620583,
+    "accuracy_ci95_low": 0.3431446980664788,
+    "accuracy_ci95_high": 0.565758812531947
+  },
+  "baseline_training_prior": 0.5047372954349698,
+  "baseline_test": {
+    "matches": 73,
+    "accuracy": 0.4246575342465753,
+    "log_loss": 0.6946197873091777,
+    "brier_score": 0.25073628100618434,
+    "roc_auc": 0.5,
+    "accuracy_ci95_low": 0.31784011426782005,
+    "accuracy_ci95_high": 0.5390082595297062
+  },
+  "coin_flip_test": {
+    "matches": 73,
+    "accuracy": 0.4246575342465753,
+    "log_loss": 0.6931471805599453,
+    "brier_score": 0.25,
+    "roc_auc": 0.5,
+    "accuracy_ci95_low": 0.31784011426782005,
+    "accuracy_ci95_high": 0.5390082595297062
+  },
+  "confusion_matrix": [
+    [
+      21,
+      21
+    ],
+    [
+      19,
+      12
+    ]
+  ],
+  "protocol": "Model weights fixed before the test season. History features update after each date; only earlier dates are available. This simulates post-toss match-by-match forecasts, not preseason forecasts.",
+  "final_model_note": "Deployment model refitted on all decided matches after evaluation; test metrics describe the earlier holdout model, not this refit.",
+  "feature_columns": [
+    "team1",
+    "team2",
+    "venue",
+    "toss_team1",
+    "team1_bats_first",
+    "elo_diff",
+    "form_diff",
+    "h2h_diff",
+    "scoring_rate_diff",
+    "experience_diff"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "source": "Cricsheet / Stephen Rushe",
+  "url": "https://cricsheet.org/downloads/ipl_male_json.zip",
+  "license": "Open Data Commons Attribution License (ODC-By) 1.0",
+  "license_url": "https://opendatacommons.org/licenses/by/1-0/",
+  "source_sha256": "6fe9142db9e139e4f77a5634ddc61c1c72a26a56bee2fe5affe5921867de04b3",
+  "coverage_start": "2008-04-18",
+  "coverage_end": "2026-05-31",
+  "seasons": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "matches": 1243,
+  "delivery_events": 295732,
+  "super_over_deliveries": 175,
+  "matches_without_winner": 9,
+  "missing_cities": 51,
+  "coverage_note": "Matches present in the downloaded archive; not a complete official fixture list. Unplayed/abandoned fixtures may be absent.",
+  "retrieved_on": "2026-10-14",
+  "retrieval_date_timezone": "Asia/Calcutta",
+  "sha256": "6fe9142db9e139e4f77a5634ddc61c1c72a26a56bee2fe5affe5921867de04b3",
+  "decided_matches": 1234,
+  "regulation_matches_for_chasing": 1195,
+  "toss_winner_wins": 634,
+  "toss_winner_win_pct": 51.38,
+  "chase_wins": 650,
+  "chase_win_pct": 54.39,
+  "batting_leader": {
+    "player": "V Kohli",
+    "runs": 9336
+  },
+  "bowling_leader": {
+    "player": "YS Chahal",
+    "wickets": 233
+  },
+  "reconciliation": {
+    "legacy_rows": 577,
+    "matched_on_date_and_teams": 577,
+    "unmatched_legacy_rows": 0,
+    "winner_differences": 0
+  },
+  "matches_flagged_missing_info": 0
+}

@@ -1,0 +1,9 @@
+CHORUS by Dazor — https://dazor.gumroad.com/l/CHORUS-FONT
+The creator describes CHORUS as free for personal and commercial use.
+Font distribution source: https://befonts.com/chorus-sans-serif-font.html
+Included styles: CHORUS-BLACK.otf and CHORUS-BOLD.otf, unmodified.
+
+Kirgina by Dharmas Foundry is NOT distributed with this site.
+https://dharmasfoundry.com/product/kirgina/
+https://dharmasfoundry.com/license/
+The secondary-heading stack can use a locally installed Kirgina font; Chorus is its bundled fallback. Supply a licensed webfont to embed Kirgina for all visitors.

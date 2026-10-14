@@ -1,0 +1,33 @@
+{
+  "source": "Maven Analytics CRM Sales Opportunities",
+  "source_url": "https://mavenanalytics.io/data-playground/crm-sales-opportunities",
+  "download_url": "https://maven-datasets.s3.amazonaws.com/CRM+Sales+Opportunities/CRM+Sales+Opportunities.zip",
+  "license": "Public Domain (as listed by Maven Analytics)",
+  "retrieved": "2026-10-14",
+  "nature": "Fictitious computer-hardware B2B company",
+  "counts": {
+    "accounts": 85,
+    "opportunities": 8800
+  },
+  "columns": [
+    "id",
+    "account",
+    "product",
+    "stage",
+    "engage_date",
+    "close_date",
+    "close_value",
+    "region",
+    "list_price",
+    "demo_source",
+    "demo_campaign"
+  ],
+  "synthetic_overlay": "demo_source and demo_campaign are deterministic synthetic examples; they are absent from the source dataset. No actual lead-source or campaign performance is claimed.",
+  "cleaning": [
+    "Corrected sector value technolgy to technology.",
+    "Revenue in accounts is millions of USD; close_value and product list prices are USD.",
+    "Missing account/date fields remain missing.",
+    "Zero close_value is retained for open/lost deals; open pipeline is estimated from product list price.",
+    "Normalized GTXPro to GTX Pro before joining product list prices."
+  ]
+}
